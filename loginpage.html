@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login
+        {
+            height : 350px;
+            width : 350px;
+            border-radius: 25px;
+            top:50%;
+            left:50%;
+            position:absolute;
+            /* background-color: whitesmoke; */
+            background-image: linear-gradient(to right, rgb(84, 108, 124), rgb(173, 212, 111));
+            box-shadow: 4px 4px 4px rgb(0,0,0,0.4);
+            transform:translate(-50%,-50%);
+        }
+        body{
+            /* background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(187, 24, 24)); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height :100%;
+            width : 100%;
+            background-image:url("https://t4.ftcdn.net/jpg/04/60/71/01/240_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg")
+        }
+        .image
+        {
+         width: 70px;
+         height:70px;
+         border-radius: 50%;
+         padding-top: 10px;
+        }
+        .imagediv
+        {
+            text-align: center; 
+           
+        }
+        .formdiv
+        {
+            text-align: center;
+            padding-top: 10px;
+        }
+        .ip
+        {
+            border: black;
+            height: 30px;
+            text-align: center;
+            padding: 12px;
+            font-size: medium;
+            color: blueviolet;
+        }
+        .log
+        {
+            padding: 15px;
+            background-color: pink;
+            border: none;
+            border-radius: 18px;
+            font-size: large;
+            cursor: pointer;
+            text-align: center;
+
+        }
+        form
+        {
+            text-align: center;
+            padding: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="imagediv">
+            <img src="login.png" class="image">
+
+        </div>
+        <div class="formdiv">
+            <form action="">
+                <input type="text" class="ip" placeholder="Username">
+                <br>
+                <br>
+                <input type="password" class="ip" placeholder="Password">
+                <br>
+                <br>
+                <input type="submit" value="login" class="log">
+                <br>
+                <p style="color: blueviolet;cursor: pointer;font-size: large;">Forgot password</p>
+                <p style="color: blueviolet;cursor: pointer;font-size: large;">Signin</p>
+
+            </form>
+        </div>
+
+        
+
+
+    </div>
+</body>
+</html>
+
